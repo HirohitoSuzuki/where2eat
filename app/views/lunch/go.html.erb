@@ -1,1 +1,9 @@
-<h1><%= @recommend %>がおすすめ</h1>
+<h1>
+    <%= @recommend.name %>
+    (<%= @recommend.type_meal %>)
+</h1>
+<a1>場所：<%= @recommend.area %></a1>
+<br>
+<a1>価格：<%= @recommend.price %>￥</a1>
+<br>
+<a1>定休日：<%= @recommend.holiday %></a1>
