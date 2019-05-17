@@ -1,0 +1,2 @@
+module HateriesHelper
+end

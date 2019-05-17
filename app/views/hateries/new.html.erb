@@ -1,0 +1,11 @@
+<%= form_with model: Hatery.new, url: {action: :create}, local: true do |f| %>
+    <div>
+     <%= f.label :name %>
+     <%= f.text_field :name, id: 'hatery_name' %>
+    </div>
+    <div>
+     <%= f.label :user %>
+     <%= f.text_field :name, id: 'hatery_name' %>
+    </div>
+    <%= f.submit %>
+<% end %>

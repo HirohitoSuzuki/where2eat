@@ -1,0 +1,2 @@
+class Hatery < ApplicationRecord
+end
